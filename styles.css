@@ -61,7 +61,7 @@ button:hover {
 .editions__card-wrapper {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 3rem;
   margin-top: 1rem;
 }
 .editions__card {
@@ -150,7 +150,7 @@ button:hover {
 .addons__section-wrapper {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 3rem;
   margin-top: 1rem;
 }
 .addons__addon {
@@ -178,8 +178,49 @@ button:hover {
 
 /* GAME-LEGAL SECTION */
 .gamelegal__section {
-  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 8rem;
 }
+.gamelegal__section-heading {
+  font-size: 5rem;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.gamelegal__section-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  margin-top: 1rem;
+}
+.gamelegal__section-disclaimer {
+  font-size: 2.4rem;
+  flex: 2;
+}
+.gamelegal__section-features {
+  margin-top: 2rem;
+}
+.gamelegal__section-details {
+  flex: 1;
+}
+
+table {
+  width: 100%;
+}
+
+td:first-child {
+  width: 50%;
+}
+
+td {
+  font-size: 1.6rem;
+  padding: 0.5rem;
+  vertical-align: top;
+}
+
+/* FOOTER SECTION */
 
 .footer {
   background-color: aqua;
