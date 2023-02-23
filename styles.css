@@ -180,7 +180,7 @@ button:hover {
 .gamelegal__section {
   display: flex;
   flex-direction: column;
-  padding: 4rem 8rem;
+  padding: 4rem 13rem;
 }
 .gamelegal__section-heading {
   font-size: 5rem;
@@ -188,7 +188,6 @@ button:hover {
   text-align: center;
   padding-bottom: 2rem;
 }
-
 .gamelegal__section-wrapper {
   display: flex;
   justify-content: center;
@@ -205,23 +204,40 @@ button:hover {
 .gamelegal__section-details {
   flex: 1;
 }
-
 table {
   width: 100%;
 }
-
 td:first-child {
   width: 50%;
 }
-
 td {
   font-size: 1.6rem;
   padding: 0.5rem;
   vertical-align: top;
 }
-
 /* FOOTER SECTION */
 
 .footer {
-  background-color: aqua;
+  background-color: var(--color-blue);
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 20rem;
+}
+.footer__heading {
+  font-size: 3rem;
+  padding-bottom: 8rem;
+}
+.footer__wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.footer__links {
+  flex: 1;
+  font-size: 4rem;
+}
+ul {
+  list-style: none;
+}
+li {
+  margin-bottom: 2rem;
 }
