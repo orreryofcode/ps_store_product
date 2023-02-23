@@ -188,7 +188,7 @@ button:hover {
 }
 .editions__card {
   width: 28%;
-  min-width: 50rem;
+  min-width: 45rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
