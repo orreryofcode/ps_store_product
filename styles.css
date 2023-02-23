@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap");
+
+:root {
+  /* Colors */
+  --color-dark: #090a0a;
+  --color-gray: #1e1f22;
+  --color-blue: #003697;
+  --color-btn-primary: #d63d00;
+  --color-btn-secondary: #444444;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  color: white;
+  background-color: var(--color-dark);
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+}
+
+main {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+button {
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+  font-size: 2.2rem;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.nav__container {
+  background-color: aqua;
+}
+
+.product__highlight {
+  background-color: aqua;
+}
+
+/* EDITIONS SECTION */
+.editions__section {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 0;
+}
+.editions__section-heading {
+  font-size: 5rem;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.editions__card-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+.editions__card {
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: var(--color-gray);
+  font-size: 1.7rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.editions__section-img {
+  width: 100%;
+  min-width: 100%;
+}
+.editions__card-body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+  padding-bottom: 4rem;
+}
+.editions__card-title {
+  font-size: 2.8rem;
+  margin-left: 0.5rem;
+  padding-bottom: 30rem;
+}
+.editions__card-content {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  bottom: 11rem;
+}
+.editions__card-price {
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-left: 0.5rem;
+}
+.editions__card-platform {
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 5rem;
+  padding: 0.5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+  margin-left: 2rem;
+}
+.editions__card-btn-group {
+  display: flex;
+  justify-content: flex-start;
+}
+.editions__card-cart_btn {
+  background-color: var(--color-btn-primary);
+  width: 85%;
+  padding: 0.8rem 0;
+  border-radius: 10rem;
+  font-weight: 600;
+}
+.editions__card-wish_btn {
+  background-color: var(--color-btn-secondary);
+  padding: 0.5rem;
+  width: 5rem;
+  height: 5rem;
+  margin-left: 4rem;
+  border-radius: 50%;
+}
+
+/* ADD ONS SECTION */
+.addons__section {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 0;
+}
+.addons__section-heading {
+  font-size: 5rem;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.addons__section-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+.addons__addon {
+  width: 13.5%;
+}
+.addons__addon-img {
+  width: 100%;
+  border-radius: 1rem;
+}
+.addons__addon-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+.addons__addon-tag {
+  font-size: 1.2rem;
+}
+.addons__addon-title {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.addons__addon-price {
+  font-size: 1.6rem;
+}
+
+/* GAME-LEGAL SECTION */
+.gamelegal__section {
+  background-color: aqua;
+}
+
+.footer {
+  background-color: aqua;
+}
