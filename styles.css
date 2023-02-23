@@ -61,11 +61,13 @@ button:hover {
 .editions__card-wrapper {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 3rem;
   margin-top: 1rem;
 }
 .editions__card {
   width: 28%;
+  min-width: 50rem;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -150,11 +152,13 @@ button:hover {
 .addons__section-wrapper {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 3rem;
   margin-top: 1rem;
 }
 .addons__addon {
   width: 13.5%;
+  min-width: 20rem;
 }
 .addons__addon-img {
   width: 100%;
@@ -191,12 +195,14 @@ button:hover {
 .gamelegal__section-wrapper {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 4rem;
   margin-top: 1rem;
 }
 .gamelegal__section-disclaimer {
-  font-size: 2.4rem;
+  font-size: 3rem;
   flex: 2;
+  min-width: 50rem;
 }
 .gamelegal__section-features {
   margin-top: 2rem;
@@ -206,6 +212,7 @@ button:hover {
 }
 table {
   width: 100%;
+  min-width: 50rem;
 }
 td:first-child {
   width: 50%;
@@ -221,22 +228,26 @@ td {
   background-color: var(--color-blue);
   display: flex;
   flex-direction: column;
-  padding: 4rem 20rem;
+  padding: 4rem 8rem;
 }
 .footer__heading {
   font-size: 3rem;
   padding-bottom: 8rem;
+  padding-left: 8rem;
 }
 .footer__wrapper {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
 }
 .footer__links {
   flex: 1;
   font-size: 4rem;
+  padding-left: 8rem;
 }
 ul {
   list-style: none;
+  width: 33%;
+  min-width: 20rem;
 }
 li {
   margin-bottom: 2rem;
